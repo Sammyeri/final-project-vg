@@ -1,0 +1,27 @@
+.parentProfile {
+    text-align: center;
+    padding-bottom: 50%;
+    padding-top: 2%;
+}
+
+.popup {
+    width: 100%;
+    color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; /* Remove bullets */
+    padding: 0px 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media screen and (min-width: 850px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+}

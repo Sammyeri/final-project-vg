@@ -1,0 +1,40 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home p{
+    color: green;
+}
+
+.searchForm {
+    float: right;
+}
+.gamecard{
+    display: flex;
+    flex-direction: column;
+}
+
+.GameList{
+    display: flex;
+    flex-direction: column;
+    display: inline;
+        min-width: 696px;
+        list-style: none;
+        padding-top: 20px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.searchlist {
+    display: inline;
+        min-width: 696px;
+        list-style: none;
+        padding-top: 20px;
+}
+
+ul {
+    columns: 3;
+}

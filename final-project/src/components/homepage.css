@@ -1,0 +1,47 @@
+img{
+    width: 400px;
+    height: 400px;
+}
+
+div.scrollmenu{
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+
+div.scrollmenu div.gamecard{
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    background-color: black;
+    text-decoration: none;
+    border: 2px solid purple;
+    margin: 8px;
+    
+}
+
+.scrollmenu::-webkit-scrollbar{
+    height: 10px;
+    width: 100%;
+}
+
+.scrollmenu::-webkit-scrollbar-track{
+    background-color: rgba(255,255,255,.5);
+    border-radius: 10px;
+}
+
+.scrollmenu::-webkit-scrollbar-track:hover{
+    background-color: white;
+}
+
+.scrollmenu::-webkit-scrollbar-thumb{
+    background-color: rgba(0,128,0,.5);
+    border-radius: 10px;
+}
+.scrollmenu::-webkit-scrollbar-thumb:hover{
+    background-color: green;
+}
+.button {
+    cursor: pointer;
+}
